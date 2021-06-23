@@ -19,5 +19,11 @@ $black:    #000;
 $primary:       $purple-dark;
 $secondary:     $pink;
 
+.img-fluid {
+  height: auto;
+  width: auto;
+  max-height: 72px;
+  max-width: 250px;
+}
 //Import Bootstrap 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
